@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "PR Viewed",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "minimum_chrome_version": "102",
   "description": "GitHub の PR で確認済みのファイル名を薄くし、打ち消し線を表示します。",
   "content_scripts": [
