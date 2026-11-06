@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "PR Viewed",
+  "version": "1.0.4",
+  "minimum_chrome_version": "102",
+  "description": "GitHub の PR で確認済みのファイル名を薄くし、打ち消し線を表示します。",
+  "content_scripts": [
+    {
+      "matches": [
+        "https://github.com/*"
+      ],
+      "js": [
+        "viewed-files.js"
+      ],
+      "css": [
+        "viewed-files.css"
+      ]
+    }
+  ],
+  "icons": {
+    "16": "icons/icon-16.png",
+    "32": "icons/icon-32.png",
+    "48": "icons/icon-48.png",
+    "128": "icons/icon-128.png"
+  }
+}
